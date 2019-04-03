@@ -1,0 +1,104 @@
+body {
+	background-color: #E8E8E8;
+}
+
+.bg-defaut {
+	background-color: #4F4F4F;
+	color: #FFF;
+}
+
+.header {
+	margin-bottom: 0;
+	background-color: yellow;
+}
+
+/* ---- PERFIL USUARIO ---- */
+
+.perfil {
+
+}
+.perfil__nome {
+	color: #000;
+}
+
+
+.conteudo {
+	padding: 0 50px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+
+
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.logotipo {
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.logotipo img {
+	height: 30px;
+}
+
+.perfil {
+	padding: 10px;
+	width: 300px;
+}
+
+.perfil li:first-child {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.cabecalho h1 {
+	margin: 0;
+	font-size: 3em;
+}
+
+.busca {
+	margin-top: 12px;
+}
+
+.dados-os {
+	margin-top: 30px;
+}
+
+.paginacao .pagination {
+	margin: 0;
+}
+
+.footer {
+	padding: 50px 0;
+	bottom: 0;
+	position: relative;
+	
+	text-align: center;
+}
+
+@media(max-width: 767px) {
+	.perfil {
+		color: #FFF;
+	}
+
+	.perfil a {
+		color: #9d9d9d;
+		display: block;
+		padding: 5px 0;
+	}
+
+	.perfil a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.paginacao {
+		text-align: center;
+	}
+
+	.paginacao .pagination {
+		margin-top: 20px;
+	}
+}
